@@ -1,6 +1,6 @@
-# Rushi ....
+# Rushikesh Shirsat
 
- Git ?? rishi4440
+ Git-ID -> rishi4440
 
 *  Accounts: [Rushi ...](https://piazza.com/class/mt5rkdsycb31c3/post/32)
 
