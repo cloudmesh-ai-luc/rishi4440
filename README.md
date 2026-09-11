@@ -86,22 +86,22 @@ Note:
   * [ ] Fill out the LUC Hardware Questionnaire.
 
 
-* [ ] Assignment W1.2: Lecture review (Past Due)
+* [x] Assignment W1.2: Lecture review (Past Due
   * [ ] Review all sections under LECTURES -> INTRODUCTIONS and post questions on Piazza.
 
 
-* [ ] Assignment W1.3: Look over the assignment sections (Past Due)
+* [x] Assignment W1.3: Look over the assignment sections (Past Due)
   * [ ] Review all sections under ASSIGNMENTS (Overview and weekly sections).
 
 
-* [ ] Assignment W1.4: Create class accounts (Past Due)
-  * [ ] Create an account on access-ci.org.
-  * [ ] Create an account on chameleoncloud.org.
-  * [ ] Set up a GitHub account.
-  * [ ] Post account information to Piazza under the accounts category. [LINK]
+* [x] Assignment W1.4: Create class accounts (Past Due)
+  * [x] Create an account on access-ci.org.
+  * [x] Create an account on chameleoncloud.org.
+  * [x] Set up a GitHub account.
+  * [x] Post account information to Piazza under the accounts category. [LINK]
 
 
-* [ ] Assignment W1.5: Work ahead: Refresh knowledge about Python and Linux (Past Due)
+* [x] Assignment W1.5: Work ahead: Refresh knowledge about Python and Linux (Past Due)
   * [x] Review optional material in the class documentation.
 
 
