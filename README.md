@@ -47,15 +47,15 @@ Note:
 
 ## Week 2
   
-* [ ] Assignment W2.1: Google Account, Piazza Account post cleanup (Due Sep 10, 2026, 9am)
-  * [ ] Locate your account post in Piazza and add your google account.
-  * [ ] Correct your Chameleon ID to the registered email.
-  * [ ] Fix your subject line to `Firstname Lastname (lucid@luc.edu)`.
+* [x] Assignment W2.1: Google Account, Piazza Account post cleanup (Due Sep 10, 2026, 9am)
+  * [x] Locate your account post in Piazza and add your google account.
+  * [x] Correct your Chameleon ID to the registered email.
+  * [x] Fix your subject line to `Firstname Lastname (lucid@luc.edu)`.
 
 
 * [ ] Assignment W2.2: GitHub Repository (Due Sep 10, 2026, 9am)
-  * [ ] Verify that you can write into a file in your assigned GitHub repository.
-  * [ ] Put something useful into the README such as your first and last name. [LINK]
+  * [x] Verify that you can write into a file in your assigned GitHub repository.
+  * [x] Put something useful into the README such as your first and last name. [LINK]
   * [ ] Upload your public key. [LINK]
 
 
