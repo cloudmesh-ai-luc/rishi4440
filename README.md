@@ -2,7 +2,7 @@
 
  Git-ID -> rishi4440
 
-*  Accounts: [Rushi ...](https://piazza.com/class/mt5rkdsycb31c3/post/32)
+*  Accounts: [Rushi's Piazza Accounts](https://piazza.com/class/mt5rkdsycb31c3/post/32)
 
 
 Note:
