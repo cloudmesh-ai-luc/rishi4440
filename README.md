@@ -76,22 +76,22 @@ Note:
   * [ ] Write/update the tutorial in `assignments/week1/local-vm.md` and save the screenshot as `assignments/week1/vm-login.png`. [LINK/s]
 
 
-* [ ] Assignment W2.5: Project proposal (Due Sep 10, 2026, 9am)
-  * [ ] Start working towards a project proposal and fill out administrative fields and text. [LINK]
+* [ x] Assignment W2.5: Project proposal (Due Sep 10, 2026, 9am)
+  * [ x] Start working towards a project proposal and fill out administrative fields and text. [LINK]
 
 
 # Week 1
 
-  * [ ] Assignment W1.1: What hardware do you have? (Past Due) [LINK]
-  * [ ] Fill out the LUC Hardware Questionnaire.
+  * [x] Assignment W1.1: What hardware do you have? (Past Due) [LINK]
+  * [x] Fill out the LUC Hardware Questionnaire.
 
 
 * [x] Assignment W1.2: Lecture review (Past Due
-  * [ ] Review all sections under LECTURES -> INTRODUCTIONS and post questions on Piazza.
+  * [x] Review all sections under LECTURES -> INTRODUCTIONS and post questions on Piazza.
 
 
 * [x] Assignment W1.3: Look over the assignment sections (Past Due)
-  * [ ] Review all sections under ASSIGNMENTS (Overview and weekly sections).
+  * [x] Review all sections under ASSIGNMENTS (Overview and weekly sections).
 
 
 * [x] Assignment W1.4: Create class accounts (Past Due)
