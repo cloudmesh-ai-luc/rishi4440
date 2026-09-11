@@ -76,8 +76,8 @@ Note:
   * [ ] Write/update the tutorial in `assignments/week1/local-vm.md` and save the screenshot as `assignments/week1/vm-login.png`. [LINK/s]
 
 
-* [ x] Assignment W2.5: Project proposal (Due Sep 10, 2026, 9am)
-  * [ x] Start working towards a project proposal and fill out administrative fields and text. [LINK]
+* [x] Assignment W2.5: Project proposal (Due Sep 10, 2026, 9am)
+  * [x] Start working towards a project proposal and fill out administrative fields and text. [LINK]
 
 
 # Week 1
