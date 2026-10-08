@@ -45,9 +45,9 @@ Note:
     - [ ] Review how to pass command-line arguments to a Python program (using click).
     - [ ] Review how to run shell commands from within Python, focusing on os.system() and subprocess.run().
     - [ ] Does it take more then 3 hours  please use Piazza to find out where you may need some more help.
-          Indicate
-          - [ ] yes
-          - [ ] no
+        Indicate
+        - [ ] yes
+        - [ ] no
 
 
 
