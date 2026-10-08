@@ -15,7 +15,7 @@ Note:
   * [x] Start a VM on Jetstream and follow the tutorial provided.
   * [ ] Improve the tutorial while creating pull requests in the lecture notes if you see issues.
   * [x] Document your activity with a screenshot of the terminal (800x600).
-  * [ ] [VM.MD](https://github.com/cloudmesh-ai-luc/YOURREPO/blob/main/assignments/week3/vm.md)
+  * [ ] [VM.MD](https://github.com/cloudmesh-ai-luc/rishi4440/blob/main/assignments/week3/vm.md)
 
 
 * [x] Assignment W3.2: VM on Chameleon Cloud (Due Sep 17, 2026, 9am)
@@ -25,19 +25,19 @@ Note:
   * [x] Make a reservation not exceeding 1 hour.
   * [x] Start up a VM using a Chameleon Cloud image for Ubuntu 24.04 using the smallest image size possible.
   * [x] Document your activity with a screenshot of the terminal (800x600).
-  * [ ] [VM.MD](https://github.com/cloudmesh-ai-luc/YOURREPO/blob/main/assignments/week3/vm.md)
+  * [ ] [VM.MD](https://github.com/cloudmesh-ai-luc/rishi4440/blob/main/assignments/week3/vm.md)
 
 
 * [ ] Assignment W3.3: OPTIONAL: VM on public cloud (Due Sep 17, 2026, 9am)
   * [ ] Optional: Create a VM on a cloud of your choice (AWS, Azure, Google) using the free tier.
   * [ ] Document with screenshots how you created your account, ensuring sensitive information is blurred out.
-  * [ ] [VM.MD](https://github.com/cloudmesh-ai-luc/YOURREPO/blob/main/assignments/week3/vm.md)
+  * [ ] [VM.MD](https://github.com/cloudmesh-ai-luc/rishi4440/blob/main/assignments/week3/vm.md)
 
 
-* [ ] Assignment W3.4: Compare (Due Sep 17, 2026, 9am)
-  * [ ] Compare your experience between starting a VM on your local machine vs using Chameleon Cloud.
-  * [ ] Put all assignment answers into `<repor>/assignments/week3.md`. [LINK]
-  * [ ] [VM.MD](https://github.com/cloudmesh-ai-luc/YOURREPO/blob/main/assignments/week3/vm.md)
+* [x] Assignment W3.4: Compare (Due Sep 17, 2026, 9am)
+  * [x] Compare your experience between starting a VM on your local machine vs using Chameleon Cloud.
+  * [x] Put all assignment answers into `<repor>/assignments/week3.md`. [LINK]
+  * [x] [VM.MD](https://github.com/cloudmesh-ai-luc/rishi4440/blob/main/assignments/week3/week3.md)
      
 * [ ] Assignment W3.5: README.md (Due Sep 17, 2026, 9am)
   * [ ] put your link here  [LINK]

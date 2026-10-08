@@ -1,4 +1,4 @@
-# Week 3.4 — VM Comparison
+# Week 3.4 — Rushi's VM Comparison
 
 
 ## 1. Local Virtual Machine vs. Cloud VMs
@@ -7,10 +7,10 @@
 |---|---|---|---|
 | Setup | Configure virtualization software, an OS image, and virtual hardware on the host computer. | Create an instance in the cloud portal and configure access. | Select the class project, create a lease, choose an image and reserved flavor, and configure access. |
 | Flexibility | Useful for experiments on the host computer. | Provides remote compute resources without using the host's CPU and RAM for the guest OS. | Provides reserved remote resources for a scheduled period. |
-| Resources | Limited by the host computer's CPU, RAM, and storage. | Uses resources provided through a cloud allocation. | My reserved flavor provided 1 vCPU, 2 GB RAM, and 20 GB disk. |
+| Resources | Limited by the host computer's CPU, RAM, and storage. | uses resources provided through a cloud allocation. | My reserved flavor provided 1 vCPU, 2 GB RAM, and 20 GB disk. |
 | Access | A local console is available through the virtualization software; SSH can also be configured. | Remote access depends on the portal and instance configuration. | I connected using SSH from Windows PowerShell. |
 | Networking | Local access does not require a cloud floating IP. | Remote access requires appropriate network and authentication settings. | SSH access required network configuration and an SSH security group. |
-| Resource management | Start or stop the VM and manage its local disk files. | Manage instances and release resources when finished. | Manage the instance and associated resources within the lease window. |
+| Resource management | Start or stop the VM and manage its local disk files. | manage instances and release resources when finished. | manage the instance and associated resources within the lease window. |
 
 
 ## 2. Experience Using Jetstream
@@ -34,7 +34,7 @@ The most confusing part was understanding the difference between reserving resou
 
 A local VM runs on the host computer and uses resources assigned through virtualization software. Basic console access does not require a cloud project, a resource reservation, or a floating IP. This makes a local VM convenient for testing software and experimenting with operating systems.
 
-The main limitation is the host computer's hardware. Allocating more CPU, memory, or storage to a VM leaves fewer resources available to other applications on the host. Unlike the remote Chameleon VM, the local guest depends directly on the host computer's capacity. But I prefer to test and debu my apps localy before pushing them to cloud! 
+The main limitation is the host computer's hardware. Allocating more CPU, memory, or storage to a VM leaves fewer resources available to other applications on the host. Unlike the remote Chameleon VM, the local guest depends directly on the host computer's capacity. I personally prefer to test and debug my apps localy before pushing them to cloud! 
 
 
 ## 5. Advantages and Disadvantages
