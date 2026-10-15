@@ -12,12 +12,12 @@ Note:
 
 ## Week 4 Tasks (Due Sep 24, 2026, 9am)
 
-- [ ] Assignment W4.1: VM on local machine via Makefile
-  - [ ] Pick a local VM framework and ensure it is installed.
-  - [ ] Write a Makefile with all the necessary targets to manage a single VM.
-  - [ ] Configure/determine how to manage multiple machines.
-  - [ ] Organize different Makefiles for different local and cloud environments using directories.
-  - [ ] [Local VM Report](assignments/week4/local/week4-local.md)
+- [x] Assignment W4.1: VM on local machine via Makefile
+  - [x] Pick a local VM framework and ensure it is installed.
+  - [x] Write a Makefile with all the necessary targets to manage a single VM.
+  - [x] Configure/determine how to manage multiple machines.
+  - [x] Organize different Makefiles for different local and cloud environments using directories.
+  - [x] [Local VM Report](assignments/week4/local/week4-local.md)
 
 - [ ] Assignment W4.2: VM on Jetstream 2
   - [ ] Install the OpenStack command-line client.
