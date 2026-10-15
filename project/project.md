@@ -1,5 +1,6 @@
 # Containerized RAG Log Investigator for an E-Commerce Application with Local AI Inference
 
+> **Name:** Rushikesh R. Shirat
 > **Course:** Cloud Computing, DevOps, and AI  
 > **Project type:** Individual educational project  
 > **Status:** Planned  
@@ -297,7 +298,7 @@ project/
 
 The exact layout can change as implementation begins. Keep the first version simple; do not create empty packages or services just to match this outline.
 
-## 13. Milestones and deliverables
+## 13. Milestones
 
 | Milestone | Target work | Evidence/deliverable |
 |---|---|---|
