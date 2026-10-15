@@ -199,6 +199,24 @@ The initial workflow should:
 
 Publishing to GHCR and remote deployment from CI are optional stretch goals. If implemented, use narrowly scoped GitHub Actions permissions and deployment credentials stored as protected repository secrets.
 
+### Smoke tests
+
+Run a short smoke-test sequence after a local start, Jetstream deployment, or service update. A smoke test checks that the main pieces work together; it is separate from the unit tests.
+
+1. Confirm the required Compose services are running and their health checks pass.
+2. Request the FastAPI health endpoint from inside the deployment and confirm it returns a healthy status.
+3. Open the PrestaShop storefront over its configured web URL and confirm the home page loads.
+4. Place or verify a synthetic test order and confirm that PrestaShop/MySQL produce corresponding log events.
+5. Confirm Fluent Bit forwards those events and FastAPI accepts them; verify at least one event is visible to retrieval.
+6. Submit a known investigator question and check that the response includes a relevant service, timestamp when available, and supporting log excerpt.
+7. Confirm the restricted investigator path works for the authorized operator and that MySQL, Chroma, and Ollama are not reachable through public ingress.
+8. If the DGX Spark is unavailable during the test, verify that the storefront and event collection stay up and the investigator reports AI unavailability clearly.
+
+Record the date, environment, image/config version, test result, and any failure. Do not mark deployment as verified based only on containers starting; the storefront and log-to-answer path must be checked.
+
+Publishing to GHCR and remote deployment from CI are optional stretch goals. If implemented, use narrowly scoped GitHub Actions permissions and deployment credentials stored as protected repository secrets.
+
+
 ### Deployment and recovery
 
 - Use a documented deployment script or runbook to pull/build the intended image version and update services.
