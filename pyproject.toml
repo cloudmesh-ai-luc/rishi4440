@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rishi4440"
+version = "0.1.0"
+description = "rishi4440 project documentation and assignments"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "mkdocs",
+    "mkdocs-material",
+]

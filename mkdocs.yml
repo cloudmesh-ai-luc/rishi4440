@@ -1,0 +1,5 @@
+site_name: rishi4440 Documentation
+theme: readthedocs
+
+nav:
+  - Home: index.md
