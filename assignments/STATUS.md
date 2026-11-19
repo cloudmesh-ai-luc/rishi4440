@@ -60,7 +60,7 @@
 - [ ] Run `test_config.py` and report any issues.
 - [ ] Review VM Doctor improvements, including `--cloud=all` and authentication validation.
 
-## Project — E-commerce Application with Containerized RAG and Local AI Inference
+## Project
 
 ### Current Progress
 
