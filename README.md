@@ -6,8 +6,7 @@
 
 
 Note:
-*  put files in `<repor>/assignments/week3/`
-*  Update all YOURREPO
+
 
 
 ## Week 4 Tasks (Due Sep 24, 2026, 9am)
