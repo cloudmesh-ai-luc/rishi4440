@@ -48,6 +48,35 @@
 - [ ] Document completed work, test results, issues, and pull request URLs in this file.
 - [ ] Check LLM-generated changes manually for hallucinations, regressions, or accidental deletions.
 
+
+* due Thus Nov 19/26: 
+    * What concrete progress did you make in your local cloud
+       * include urls to pull requests and/or issues
+    * What progress have you made in chameleon and/or jetstream
+       * include urls to pull requests and/or issues
+     * What progress have you made in your public cloud such as aws, azure, gcp
+        * include urls to pull requests and/or issues
+* due Thus Dec 03: 
+    * What concrete progress did you make in your local cloud
+       * include urls to pull requests and/or issues
+        * include the link to your smoke test results in cloudmesh-ai-vm-results
+    * What progress have you made in chameleon and/or jetstream
+        * include urls to pull requests and/or issues
+        * include the link to your smoke test results in cloudmesh-ai-vm-results
+     * What progress have you made in your public cloud such as aws, azure, gcp
+        * include urls to pull requests and/or issues
+        * include the link to your smoke test results in cloudmesh-ai-vm-results
+* due Thus Dec 10: 
+    * What concrete progress did you make in your local cloud
+       * include urls to pull requests and/or issues
+        * include the link to your smoke test results in cloudmesh-ai-vm-results
+    * What progress have you made in chameleon and/or jetstream
+        * include urls to pull requests and/or issues
+        * include the link to your smoke test results in cloudmesh-ai-vm-results
+     * What progress have you made in your public cloud such as aws, azure, gcp
+        * include urls to pull requests and/or issues
+        * include the link to your smoke test results in cloudmesh-ai-vm-results
+
 ### Contributions / Pull Requests
 
 - **Progress:** To be updated.
