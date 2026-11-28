@@ -1,0 +1,1771 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Project - rishi4440 Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#containerized-rag-log-investigator-for-an-e-commerce-application-with-local-ai-inference" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="rishi4440 Documentation" class="md-header__button md-logo" aria-label="rishi4440 Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            rishi4440 Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Project
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="rishi4440 Documentation" class="md-nav__button md-logo" aria-label="rishi4440 Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    rishi4440 Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-project-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Project overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-problem-statement-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Problem statement and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-goals-and-success-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Goals and success criteria
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-minimum-viable-product-and-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Minimum viable product and scope
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Minimum viable product and scope">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        In scope
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#out-of-scope-for-the-first-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Out of scope for the first version
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-high-level-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 High-level architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-detailed-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Detailed components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-log-ingestion-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Log ingestion flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-question-and-answer-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Question and answer flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-technical-approach-and-implementation-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Technical approach and implementation plan
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Technical approach and implementation plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-repository-and-local-foundations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 1 — Repository and local foundations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-automatic-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 2 — Automatic collection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-investigator-api-and-vector-retrieval" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 3 — Investigator API and vector retrieval
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-local-ai-inference-and-private-connection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 4 — Local AI inference and private connection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-5-jetstream-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 5 — Jetstream deployment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-6-ci-evaluation-and-final-demonstration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 6 — CI, evaluation, and final demonstration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-devops-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. DevOps workflow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. DevOps workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#source-control-and-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Source control and configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Continuous integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smoke-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smoke tests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deployment-and-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deployment and recovery
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-security-privacy-and-responsible-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Security, privacy, and responsible use
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-resource-and-cost-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Resource and cost plan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-testing-and-evaluation-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Testing and evaluation plan
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Testing and evaluation plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#functional-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional tests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controlled-scenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controlled scenarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-risks-and-mitigations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Risks and mitigations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-repository-layout-proposed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Repository layout (proposed)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-milestones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Milestones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-definition-of-done" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Definition of done
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-project-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Project overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-problem-statement-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Problem statement and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-goals-and-success-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Goals and success criteria
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-minimum-viable-product-and-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Minimum viable product and scope
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Minimum viable product and scope">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        In scope
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#out-of-scope-for-the-first-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Out of scope for the first version
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-high-level-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 High-level architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-detailed-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Detailed components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-log-ingestion-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Log ingestion flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-question-and-answer-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Question and answer flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-technical-approach-and-implementation-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Technical approach and implementation plan
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Technical approach and implementation plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-repository-and-local-foundations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 1 — Repository and local foundations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-automatic-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 2 — Automatic collection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-investigator-api-and-vector-retrieval" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 3 — Investigator API and vector retrieval
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-local-ai-inference-and-private-connection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 4 — Local AI inference and private connection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-5-jetstream-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 5 — Jetstream deployment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-6-ci-evaluation-and-final-demonstration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 6 — CI, evaluation, and final demonstration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-devops-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. DevOps workflow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. DevOps workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#source-control-and-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Source control and configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Continuous integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smoke-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smoke tests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deployment-and-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deployment and recovery
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-security-privacy-and-responsible-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Security, privacy, and responsible use
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-resource-and-cost-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Resource and cost plan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-testing-and-evaluation-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Testing and evaluation plan
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Testing and evaluation plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#functional-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional tests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controlled-scenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controlled scenarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-risks-and-mitigations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Risks and mitigations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-repository-layout-proposed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Repository layout (proposed)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-milestones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Milestones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-definition-of-done" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Definition of done
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="containerized-rag-log-investigator-for-an-e-commerce-application-with-local-ai-inference">Containerized RAG Log Investigator for an E-Commerce Application with Local AI Inference</h1>
+<blockquote>
+<p><strong>Name:</strong> Rushikesh R. Shirat
+<strong>Course:</strong> Cloud Computing, DevOps, and AI<br />
+<strong>Project type:</strong> Individual educational project<br />
+<strong>Status:</strong> Planned<br />
+<strong>Primary cloud environment:</strong> Jetstream virtual machine<br />
+<strong>Local inference environment:</strong> DGX Spark running Ollama<br />
+<strong>Last updated:</strong> October 15, 2026</p>
+</blockquote>
+<h2 id="1-project-overview">1. Project overview</h2>
+<p>This project will deploy an open-source PrestaShop e-commerce application and its MySQL database as Docker containers on a Jetstream virtual machine. Normal store activity—such as browsing products and placing synthetic test orders—and controlled failures will generate logs automatically. Fluent Bit will collect the container logs and forward them to a FastAPI log-investigator service. The service will preserve and index useful log events in Chroma, retrieve evidence relevant to a question, and ask a local model running through Ollama on a DGX Spark to explain what happened.</p>
+<p>An operator will be able to ask questions such as <strong>“Why did checkout fail?”</strong> or <strong>“What happened when the database restarted?”</strong> The response should identify the likely cause and show the matching service, time, and log excerpts. It is a troubleshooting aid: it will not restart services or make changes automatically.</p>
+<p>The Jetstream VM hosts the storefront, MySQL, Fluent Bit, FastAPI, and Chroma. The DGX Spark hosts Ollama and the chat and embedding models. Jetstream reaches Ollama through the private Tailscale network. Only the storefront is intended for public web access; database, vector store, Docker API, Ollama, and investigator access remain private or restricted.</p>
+<h2 id="2-problem-statement-and-motivation">2. Problem statement and motivation</h2>
+<p>An e-commerce request can involve several components: the browser, web application, database, log collector, and AI service. When an operation fails, the evidence may be spread across multiple service logs. A learner or operator has to identify which logs matter and connect events in time.</p>
+<p>This project demonstrates a small, repeatable troubleshooting workflow: produce activity in a real application, collect its logs automatically, search the evidence, and ask a local AI model to explain the relevant events. It provides hands-on practice with Docker, cloud virtual machines, networking, log collection, APIs, vector retrieval, local model inference, testing, and CI.</p>
+<h2 id="3-goals-and-success-criteria">3. Goals and success criteria</h2>
+<p>The project is successful when the following can be demonstrated and documented:</p>
+<table>
+<thead>
+<tr>
+<th>Goal</th>
+<th>Success evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Run a real e-commerce sample application</td>
+<td>PrestaShop and MySQL start with Docker Compose, and a user can browse the store and place synthetic test orders.</td>
+</tr>
+<tr>
+<td>Collect logs automatically</td>
+<td>Fluent Bit forwards PrestaShop and MySQL container events to the investigator without manual log uploads.</td>
+</tr>
+<tr>
+<td>Search logs with RAG</td>
+<td>FastAPI retrieves relevant log evidence from Chroma for an investigator question.</td>
+</tr>
+<tr>
+<td>Use local inference</td>
+<td>Ollama on the DGX Spark supplies embeddings and generates an answer over Tailscale. Ollama is not exposed to the public internet.</td>
+</tr>
+<tr>
+<td>Make answers inspectable</td>
+<td>Answers include the source service, timestamp when available, and short supporting log excerpts; the service can say when evidence is insufficient.</td>
+</tr>
+<tr>
+<td>Demonstrate controlled failures</td>
+<td>At least three repeatable incidents are triggered and investigated, such as a database stop/restart, a web-container restart, and a test-only invalid database setting.</td>
+</tr>
+<tr>
+<td>Test the software</td>
+<td>Automated tests cover event normalization, filtering/redaction, retrieval behavior, and API responses. A documented set of about 20 questions is evaluated against known scenarios.</td>
+</tr>
+<tr>
+<td>Practice DevOps</td>
+<td>GitHub Actions runs checks and builds the project images. Deployment and recovery steps are documented and repeatable.</td>
+</tr>
+<tr>
+<td>Protect the deployment</td>
+<td>Only necessary storefront traffic is public; administrative access is restricted; secrets and real payment data are not committed or indexed.</td>
+</tr>
+</tbody>
+</table>
+<p>Evaluation measures include whether an answer identifies the known scenario, whether the cited events support the explanation, whether the model avoids unsupported claims, and response time. These are evaluation targets, not guaranteed accuracy or latency claims.</p>
+<h2 id="4-minimum-viable-product-and-scope">4. Minimum viable product and scope</h2>
+<h3 id="in-scope">In scope</h3>
+<ul>
+<li>One PrestaShop instance and one MySQL database.</li>
+<li>Docker Compose for local development and the Jetstream deployment.</li>
+<li>Fluent Bit tailing the relevant Docker container logs and forwarding events automatically to FastAPI.</li>
+<li>A small FastAPI service with an ingest endpoint, a basic restricted question interface or API, event normalization, and retrieval logic.</li>
+<li>Chroma as a persistent vector index for searchable log chunks.</li>
+<li>Ollama on the DGX Spark for the embedding model and chat model, reached over Tailscale.</li>
+<li>A small, documented set of synthetic store actions and controlled incidents.</li>
+<li>Unit/API tests, a GitHub Actions workflow, deployment instructions, architecture diagrams, and an evaluation report.</li>
+</ul>
+<h3 id="out-of-scope-for-the-first-version">Out of scope for the first version</h3>
+<ul>
+<li>Production e-commerce operation, real customers, real payments, or real personal data.</li>
+<li>Monitoring arbitrary applications or uploading arbitrary log files by hand.</li>
+<li>Automatic service restarts, remediation, or changes based on AI output.</li>
+<li>Kubernetes, multi-node high availability, autoscaling, or a production SIEM/observability platform.</li>
+<li>Public access to MySQL, Chroma, the Docker socket/API, Ollama, or the investigator interface.</li>
+<li>Paid hosted LLM inference. The initial model inference runs locally on the DGX Spark.</li>
+<li>A broad multi-user account system or polished commercial storefront customization.</li>
+</ul>
+<h2 id="5-architecture">5. Architecture</h2>
+<h3 id="51-high-level-architecture">5.1 High-level architecture</h3>
+<pre class="mermaid"><code>flowchart TD
+    Browser[Browser / operator] --&gt;|HTTPS storefront| Shop[PrestaShop on Jetstream]
+    Shop --&gt;|SQL| DB[MySQL on Jetstream]
+    Shop --&gt;|container logs| Collector[Fluent Bit]
+    DB --&gt;|container logs| Collector
+    Collector --&gt;|HTTP events| API[FastAPI investigator]
+    API --&gt;|persist / retrieve vectors| Chroma[Chroma on Jetstream]
+    API &lt;--&gt;|private Tailscale requests| Ollama[Ollama on DGX Spark]
+    Browser --&gt;|restricted questions| API
+    CI[GitHub Actions] --&gt;|test and build| Repo[Project repository]</code></pre>
+<h3 id="52-detailed-components">5.2 Detailed components</h3>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Runs on</th>
+<th>Responsibility</th>
+<th>Exposure</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PrestaShop</td>
+<td>Jetstream / Docker</td>
+<td>Serves the sample storefront and generates application activity and logs.</td>
+<td>Public web traffic only, behind the selected web entry point.</td>
+</tr>
+<tr>
+<td>MySQL</td>
+<td>Jetstream / Docker</td>
+<td>Stores PrestaShop data and generates database/container logs.</td>
+<td>Internal Docker network only.</td>
+</tr>
+<tr>
+<td>Fluent Bit</td>
+<td>Jetstream / Docker</td>
+<td>Reads the selected container logs, parses events, applies basic filtering/redaction, and forwards them to FastAPI.</td>
+<td>Internal Docker network only.</td>
+</tr>
+<tr>
+<td>FastAPI investigator</td>
+<td>Jetstream / Docker</td>
+<td>Receives events, normalizes them, stores raw events for recovery, retrieves relevant evidence, calls Ollama, and returns a sourced explanation.</td>
+<td>Investigator interface restricted to the operator; ingest endpoint internal.</td>
+</tr>
+<tr>
+<td>Chroma</td>
+<td>Jetstream / Docker</td>
+<td>Stores vector representations and searchable metadata for log chunks.</td>
+<td>Internal Docker network only; persistent volume.</td>
+</tr>
+<tr>
+<td>Ollama + embedding/chat models</td>
+<td>DGX Spark</td>
+<td>Creates embeddings and drafts a response from retrieved evidence.</td>
+<td>Private Tailscale network only; no public listener.</td>
+</tr>
+<tr>
+<td>GitHub Actions</td>
+<td>GitHub</td>
+<td>Runs automated checks and builds project container images on pushes or pull requests.</td>
+<td>Workflow permissions and secrets limited to what is required.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="53-log-ingestion-flow">5.3 Log ingestion flow</h3>
+<ol>
+<li>The operator browses PrestaShop, performs a test checkout, or triggers a documented controlled incident.</li>
+<li>PrestaShop and MySQL write events to their container logs. The implementation will first verify which application logs are available on standard output/error and whether any application log file must be mounted for collection.</li>
+<li>Fluent Bit tails the selected Docker log files, parses the Docker envelope, and forwards each event to the FastAPI ingest endpoint over the private Compose network.</li>
+<li>FastAPI normalizes fields into a consistent event record: timestamp, service/container, severity when available, message, and useful metadata.</li>
+<li>FastAPI removes or masks known sensitive patterns before indexing. It saves received raw/normalized events to a persistent local spool so collection is not dependent on an immediate model response.</li>
+<li>FastAPI batches events for embedding through Ollama and writes their vectors and metadata to persistent Chroma storage. If Ollama is temporarily unreachable, events remain in the spool and can be retried when the connection returns.</li>
+</ol>
+<h3 id="54-question-and-answer-flow">5.4 Question and answer flow</h3>
+<ol>
+<li>The operator opens the restricted investigator page/API and submits a question with an optional time range or service filter.</li>
+<li>FastAPI asks the Ollama embedding model on the DGX Spark to embed the question.</li>
+<li>FastAPI searches Chroma for relevant log chunks, using the question and any filters.</li>
+<li>FastAPI sends the question and a limited set of retrieved log excerpts to the Ollama chat model over Tailscale.</li>
+<li>Ollama drafts an explanation using only the supplied evidence. FastAPI returns the answer with source service names, timestamps, and supporting excerpts. It should report uncertainty if the retrieved logs do not support a conclusion.</li>
+</ol>
+<p>If the DGX Spark or Tailscale is unavailable, the storefront and event collection should continue. The investigator should report that AI analysis is unavailable; it should not present a fabricated diagnosis. The pending event spool can be indexed after Ollama reconnects.</p>
+<h2 id="6-technical-approach-and-implementation-plan">6. Technical approach and implementation plan</h2>
+<h3 id="phase-1-repository-and-local-foundations">Phase 1 — Repository and local foundations</h3>
+<ul>
+<li>Create the GitHub repository, issue list, README, and initial architecture record.</li>
+<li>Install and verify Docker Engine and Docker Compose on the development machine or local VM.</li>
+<li>Start the official PrestaShop and MySQL containers using a minimal Compose file and environment file.</li>
+<li>Use synthetic products and test orders; verify that the application and database persist data in named volumes.</li>
+<li>Learn and document the basic commands for listing services, viewing logs, restarting a service, and stopping the stack.</li>
+</ul>
+<p><strong>Exit check:</strong> the shop opens locally, a test order can be made, and the PrestaShop/MySQL container logs can be inspected.</p>
+<h3 id="phase-2-automatic-collection">Phase 2 — Automatic collection</h3>
+<ul>
+<li>Add Fluent Bit as a Compose service and define a small input/parser/filter/output configuration.</li>
+<li>Mount only the log paths needed for collection, read-only where possible; do not mount the Docker socket unless a later design review proves it necessary.</li>
+<li>Forward events to a temporary FastAPI health/ingest endpoint over the internal Compose network.</li>
+<li>Confirm that normal browsing, a test order, and a controlled container restart produce searchable events.</li>
+<li>Add redaction tests for example secrets and payment-like strings before indexing.</li>
+</ul>
+<p><strong>Exit check:</strong> events appear in FastAPI automatically without a manual file upload, and the test suite verifies normalized fields and redaction.</p>
+<h3 id="phase-3-investigator-api-and-vector-retrieval">Phase 3 — Investigator API and vector retrieval</h3>
+<ul>
+<li>Define and document the event schema and FastAPI endpoints, including health, ingestion, and question routes.</li>
+<li>Add persistent raw-event buffering and a retryable indexing path for periods when Ollama is offline.</li>
+<li>Add Chroma persistence, metadata filters, and a configurable top-k retrieval setting.</li>
+<li>Build a simple question page or API response that shows the answer and evidence excerpts.</li>
+<li>Start with short, bounded log chunks; avoid sending entire log histories to the model.</li>
+<li>Test retrieval using known log messages and questions before connecting the full store.</li>
+</ul>
+<p><strong>Exit check:</strong> a question retrieves the expected known events and the response includes those events as evidence.</p>
+<h3 id="phase-4-local-ai-inference-and-private-connection">Phase 4 — Local AI inference and private connection</h3>
+<ul>
+<li>Install/configure Ollama and pull a suitable chat model and embedding model on the DGX Spark.</li>
+<li>Test Ollama locally on the Spark before connecting the cloud VM.</li>
+<li>Join the Jetstream VM and DGX Spark to the approved Tailscale network and verify their private connectivity.</li>
+<li>Configure FastAPI to use the Spark's private Tailscale address; keep endpoint configuration in environment variables, not source code.</li>
+<li>Check that the model API is reachable from the VM only through the intended private path and not from the public internet.</li>
+<li>Test normal questions, insufficient-evidence questions, and the Spark-offline case.</li>
+</ul>
+<p><strong>Exit check:</strong> FastAPI can create embeddings and obtain an evidence-based answer through Tailscale; the AI-unavailable response works when the Spark cannot be reached.</p>
+<h3 id="phase-5-jetstream-deployment">Phase 5 — Jetstream deployment</h3>
+<ul>
+<li>Provision or select a course-approved Jetstream VM with enough disk and memory for the application stack and persistent volumes.</li>
+<li>Install Docker and Compose, transfer or clone the project, and configure the deployment environment file securely.</li>
+<li>Configure the Jetstream security group/firewall: allow only required storefront web access; restrict SSH to approved source addresses where feasible; keep MySQL, Chroma, internal API paths, and Ollama inaccessible from public ingress.</li>
+<li>Deploy the Compose stack and verify its health checks, persistent volumes, logs, and storefront behavior.</li>
+<li>Connect the VM to Tailscale and test the remote model path.</li>
+<li>Document start, stop, update, backup, restore, and recovery steps. Record the actual VM size and resource use.</li>
+</ul>
+<p><strong>Exit check:</strong> the deployed storefront works, logs arrive automatically, investigator access is restricted, and the app can use the Spark model over the private network.</p>
+<h3 id="phase-6-ci-evaluation-and-final-demonstration">Phase 6 — CI, evaluation, and final demonstration</h3>
+<ul>
+<li>Add a GitHub Actions workflow for Python tests, formatting/lint checks if selected, Compose configuration validation, and container image builds.</li>
+<li>Keep secrets out of workflow files and source control. Start with CI only; image publishing or automated deployment is optional and requires a separate review of credentials and permissions.</li>
+<li>Create a repeatable scenario set of about 20 questions covering normal events, known failures, and questions that have insufficient evidence.</li>
+<li>Record expected scenario, retrieved evidence, answer quality, response time, and whether the service correctly states uncertainty.</li>
+<li>Prepare a live demonstration showing a normal order, one controlled failure, automatic log collection, and an evidence-backed investigation.</li>
+<li>Write down implementation limitations and any stages that could not be completed; do not label an unverified stage as successful.</li>
+</ul>
+<p><strong>Exit check:</strong> a new checkout can follow the README to run the stack, CI results are visible, and the final demo uses repeatable test data.</p>
+<h2 id="7-devops-workflow">7. DevOps workflow</h2>
+<h3 id="source-control-and-configuration">Source control and configuration</h3>
+<ul>
+<li>Use Git branches and pull requests for changes that affect the application, collector, or deployment.</li>
+<li>Commit example configuration with placeholder values only. Keep <code>.env</code>, Tailscale credentials, SSH private keys, and other secrets out of Git.</li>
+<li>Pin or record the container image tags and model names used in the final experiment so results can be reproduced.</li>
+<li>Keep separate local and Jetstream environment files; do not commit either file if it contains secrets.</li>
+</ul>
+<h3 id="continuous-integration">Continuous integration</h3>
+<p>The initial workflow should:</p>
+<ol>
+<li>Check out the repository.</li>
+<li>Set up the supported Python version and install project dependencies.</li>
+<li>Run unit and API tests.</li>
+<li>Validate the Docker Compose configuration.</li>
+<li>Build the FastAPI image and any project-owned images.</li>
+<li>Report clear pass/fail output on the pull request.</li>
+</ol>
+<p>Publishing to GHCR and remote deployment from CI are optional stretch goals. If implemented, use narrowly scoped GitHub Actions permissions and deployment credentials stored as protected repository secrets.</p>
+<h3 id="smoke-tests">Smoke tests</h3>
+<p>Run a short smoke-test sequence after a local start, Jetstream deployment, or service update. A smoke test checks that the main pieces work together; it is separate from the unit tests.</p>
+<ol>
+<li>Confirm the required Compose services are running and their health checks pass.</li>
+<li>Request the FastAPI health endpoint from inside the deployment and confirm it returns a healthy status.</li>
+<li>Open the PrestaShop storefront over its configured web URL and confirm the home page loads.</li>
+<li>Place or verify a synthetic test order and confirm that PrestaShop/MySQL produce corresponding log events.</li>
+<li>Confirm Fluent Bit forwards those events and FastAPI accepts them; verify at least one event is visible to retrieval.</li>
+<li>Submit a known investigator question and check that the response includes a relevant service, timestamp when available, and supporting log excerpt.</li>
+<li>Confirm the restricted investigator path works for the authorized operator and that MySQL, Chroma, and Ollama are not reachable through public ingress.</li>
+<li>If the DGX Spark is unavailable during the test, verify that the storefront and event collection stay up and the investigator reports AI unavailability clearly.</li>
+</ol>
+<p>Record the date, environment, image/config version, test result, and any failure. Do not mark deployment as verified based only on containers starting; the storefront and log-to-answer path must be checked.</p>
+<p>Publishing to GHCR and remote deployment from CI are optional stretch goals. If implemented, use narrowly scoped GitHub Actions permissions and deployment credentials stored as protected repository secrets.</p>
+<h3 id="deployment-and-recovery">Deployment and recovery</h3>
+<ul>
+<li>Use a documented deployment script or runbook to pull/build the intended image version and update services.</li>
+<li>Use persistent volumes for MySQL, Chroma, and the event spool; document backup and restore procedures for the project-sized dataset.</li>
+<li>Verify the stack after updates with health checks and a small smoke test.</li>
+<li>Keep rollback simple: redeploy the last known working image tags and restore data only if the change requires it.</li>
+<li>Stop cloud resources when not in use if required by course policy or resource availability.</li>
+</ul>
+<h2 id="8-security-privacy-and-responsible-use">8. Security, privacy, and responsible use</h2>
+<ul>
+<li>Use synthetic products, test orders, and test-only failures. Do not connect payment gateways or use real customer data.</li>
+<li>Redact likely secrets, tokens, email addresses, payment-like fields, and other sensitive values before storing or sending log excerpts to Ollama.</li>
+<li>Store only the log fields needed for debugging. Define a simple retention period and clear old test data at the end of the project.</li>
+<li>Keep MySQL, Chroma, Docker API/socket, and Ollama off public ingress. Restrict the investigator UI/API to the student/operator and approved network path.</li>
+<li>Protect <code>.env</code> files, SSH keys, and Tailscale authentication material; use least privilege for GitHub Actions.</li>
+<li>Treat AI explanations as suggestions. Display the evidence and make clear that a model may be wrong; never trigger automatic remediation based only on its answer.</li>
+<li>Use the project only as an educational demo and only in environments where the operator has permission.</li>
+</ul>
+<h2 id="9-resource-and-cost-plan">9. Resource and cost plan</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Use</th>
+<th>Cost approach</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jetstream VM</td>
+<td>Store, database, collector, API, vector index</td>
+<td>Use the course allocation and a modest VM; record configuration and stop/release it when not needed under course rules.</td>
+</tr>
+<tr>
+<td>DGX Spark</td>
+<td>Local Ollama inference</td>
+<td>Use available local hardware; no per-token hosted model API is required for the planned MVP.</td>
+</tr>
+<tr>
+<td>Tailscale</td>
+<td>Private VM-to-Spark connectivity</td>
+<td>Use the account/network available to the student and course; do not expose the model publicly as a shortcut.</td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>Source control and CI</td>
+<td>Use the available account limits; CI builds should be small and run only when useful.</td>
+</tr>
+<tr>
+<td>Persistent disk</td>
+<td>MySQL, Chroma, and pending event spool</td>
+<td>Monitor usage, set a retention policy, and avoid retaining unbounded logs.</td>
+</tr>
+</tbody>
+</table>
+<p>Actual availability, course allocation limits, and any applicable provider charges should be checked before provisioning. The project does not depend on a paid hosted LLM service.</p>
+<h2 id="10-testing-and-evaluation-plan">10. Testing and evaluation plan</h2>
+<h3 id="functional-tests">Functional tests</h3>
+<ul>
+<li>Compose starts the required services and health checks become healthy.</li>
+<li>PrestaShop can connect to MySQL and create a synthetic test order.</li>
+<li>Fluent Bit forwards selected application/database container events to FastAPI.</li>
+<li>FastAPI normalizes timestamps, service identifiers, and messages, and redacts test secrets.</li>
+<li>Chroma persists indexed events across a container restart.</li>
+<li>A known question retrieves the expected incident evidence.</li>
+<li>The answer contains source evidence and does not claim a cause when the retrieved evidence is insufficient.</li>
+<li>An Ollama/Tailscale outage does not stop the storefront or erase received events; the service reports the outage and retries pending indexing.</li>
+<li>MySQL and Chroma are not reachable through public ingress.</li>
+</ul>
+<h3 id="controlled-scenarios">Controlled scenarios</h3>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Example question</th>
+<th>Expected evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Normal test checkout</td>
+<td>“Did the test checkout complete?”</td>
+<td>Application and database events around the test order, with no failure indicators if the action succeeded.</td>
+</tr>
+<tr>
+<td>MySQL stopped and restarted</td>
+<td>“Why was the shop unavailable around this time?”</td>
+<td>Database shutdown/restart events and corresponding application connection errors.</td>
+</tr>
+<tr>
+<td>PrestaShop container restarted</td>
+<td>“What happened when the web service restarted?”</td>
+<td>Container lifecycle and application startup events.</td>
+</tr>
+<tr>
+<td>Test-only invalid DB setting</td>
+<td>“Why could the application not connect to the database?”</td>
+<td>Application connection failure; no secrets exposed in the retrieved excerpt.</td>
+</tr>
+<tr>
+<td>Insufficient evidence</td>
+<td>“What caused the unrelated outage?”</td>
+<td>The investigator says available logs do not establish the cause instead of inventing one.</td>
+</tr>
+</tbody>
+</table>
+<p>For each of approximately 20 questions, record the expected scenario, retrieved log evidence, correctness of the explanation, whether it cited relevant evidence, whether it expressed uncertainty appropriately, and response time. Summarize errors and limitations; do not present the sample as production-grade accuracy testing.</p>
+<h2 id="11-risks-and-mitigations">11. Risks and mitigations</h2>
+<table>
+<thead>
+<tr>
+<th>Risk</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PrestaShop setup consumes too much time</td>
+<td>Start with the official Docker deployment and defer styling/customization.</td>
+</tr>
+<tr>
+<td>Application logs are written to files instead of container output</td>
+<td>Verify the actual log locations early; configure a read-only mount for only the required files if needed.</td>
+</tr>
+<tr>
+<td>Fluent Bit cannot read container log files</td>
+<td>Test file permissions and paths locally first; avoid broad host mounts and avoid the Docker socket where possible.</td>
+</tr>
+<tr>
+<td>Jetstream VM memory or disk is limited</td>
+<td>Keep model inference on the Spark, use a small vector index, monitor resource use, and set retention limits.</td>
+</tr>
+<tr>
+<td>DGX Spark or Tailscale is unavailable</td>
+<td>Keep store and collection running; preserve pending events; return an explicit AI-unavailable response and retry later.</td>
+</tr>
+<tr>
+<td>Model invents a root cause</td>
+<td>Give it only retrieved evidence, require citations/excerpts, test insufficient-evidence questions, and state uncertainty.</td>
+</tr>
+<tr>
+<td>Logs contain sensitive values</td>
+<td>Use synthetic test data, redact before storage/indexing, and inspect sample events before enabling the full pipeline.</td>
+</tr>
+<tr>
+<td>Public VM is exposed too broadly</td>
+<td>Allow only required web traffic; restrict SSH and investigator access; keep internal services private and verify ingress rules.</td>
+</tr>
+<tr>
+<td>Scope expands into a full monitoring platform</td>
+<td>Complete the MVP first; treat dashboards, GHCR publishing, auto-deployment, and extra incident types as optional.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="12-repository-layout-proposed">12. Repository layout (proposed)</h2>
+<div class="highlight"><pre><span></span><code>project/
+├── app/
+│   ├── api/                  # FastAPI routes and request/response models
+│   ├── ingestion/            # Event normalization, redaction, and buffering
+│   ├── retrieval/            # Chroma indexing and search
+│   ├── llm/                  # Ollama client and prompt construction
+│   └── templates/            # Minimal investigator question page, if used
+├── config/
+│   └── fluent-bit/           # Fluent Bit configuration and parser
+├── deploy/
+│   ├── compose.yaml          # Local/VM service orchestration or overlays
+│   └── scripts/              # Deploy, smoke-test, backup, and restore helpers
+├── tests/                    # Unit, API, redaction, and retrieval tests
+├── docs/
+│   ├── architecture.md       # Architecture details and decisions
+│   ├── evaluation.md         # Scenarios, questions, and results
+│   └── images/               # Architecture diagrams
+├── .github/workflows/        # GitHub Actions CI workflow
+├── .env.example              # Placeholder configuration only
+├── .gitignore
+├── README.md
+└── project.md                # This project plan
+</code></pre></div>
+<p>The exact layout can change as implementation begins. Keep the first version simple; do not create empty packages or services just to match this outline.</p>
+<h2 id="13-milestones">13. Milestones</h2>
+<table>
+<thead>
+<tr>
+<th>Milestone</th>
+<th>Target work</th>
+<th>Evidence/deliverable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Plan and local shop</td>
+<td>Repository, architecture, PrestaShop + MySQL Compose</td>
+<td>README setup steps, running local store, sample logs</td>
+</tr>
+<tr>
+<td>2. Automatic log collection</td>
+<td>Fluent Bit and FastAPI ingestion</td>
+<td>Collector config, normalized sample events, redaction tests</td>
+</tr>
+<tr>
+<td>3. RAG retrieval</td>
+<td>Chroma persistence and investigator question endpoint</td>
+<td>Known log query returns relevant evidence</td>
+</tr>
+<tr>
+<td>4. Local inference</td>
+<td>Ollama on DGX Spark over Tailscale</td>
+<td>Demonstrated embedding and answer calls, private connectivity check</td>
+</tr>
+<tr>
+<td>5. Jetstream deployment</td>
+<td>Restricted cloud deployment and persistence</td>
+<td>VM/service configuration, smoke tests, deployment runbook</td>
+</tr>
+<tr>
+<td>6. CI and evaluation</td>
+<td>GitHub Actions, controlled incidents, question set</td>
+<td>Workflow run evidence, evaluation table and limitations</td>
+</tr>
+<tr>
+<td>7. Final presentation</td>
+<td>Demo and final documentation</td>
+<td>Live demo, final report, diagrams, and reproducible repository</td>
+</tr>
+</tbody>
+</table>
+<h2 id="14-definition-of-done">14. Definition of done</h2>
+<p>The MVP is complete when a fresh setup can follow the documented steps to start the store and investigator services; store activity and at least three controlled incidents are collected automatically; questions retrieve relevant log evidence; Ollama on the DGX Spark provides local answers through Tailscale; public access is limited to the intended storefront; automated tests and CI complete with recorded results; and the final documentation accurately describes what was verified and what remains limited.</p>
+<h2 id="15-references">15. References</h2>
+<ul>
+<li><a href="https://github.com/cloudmesh-ai-luc/sstewart/blob/main/project/project.md">Example course project document: 911 Call Center Analysis and Cloud-Based Emergency Triage System</a> — used as a structural reference for sections such as overview, objectives, scope, architecture, DevOps, security, resources, risks, and deliverables. This project intentionally uses a smaller beginner-sized scope.</li>
+<li><a href="https://github.com/PrestaShop/PrestaShop">PrestaShop source repository</a></li>
+<li><a href="https://github.com/PrestaShop/docker">PrestaShop Docker repository</a></li>
+<li><a href="https://docs.docker.com/compose/">Docker Compose documentation</a></li>
+<li><a href="https://docs.fluentbit.io/manual/">Fluent Bit documentation</a></li>
+<li><a href="https://fastapi.tiangolo.com/">FastAPI documentation</a></li>
+<li><a href="https://docs.trychroma.com/">Chroma documentation</a></li>
+<li><a href="https://docs.ollama.com/">Ollama documentation</a></li>
+<li><a href="https://docs.github.com/actions">GitHub Actions documentation</a></li>
+<li><a href="https://docs.jetstream-cloud.org/">Jetstream documentation</a></li>
+<li><a href="https://tailscale.com/kb/">Tailscale documentation</a></li>
+<li><a href="https://cloudmesh-ai.github.io/cloudmesh-ai-lecture/lecture/assignments/ideas/">Course project ideas</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
