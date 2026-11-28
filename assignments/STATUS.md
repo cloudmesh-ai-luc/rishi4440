@@ -1,10 +1,13 @@
 # STATUS.md — Cloudmesh-AI / DevOps Class Progress
 
+* GvL: Team acceptance in pgithub missing. RISHI4440 needs to accept.
+
 ## Missed Class / Attendance
 
 - **November 29, 2026:** Missing class; professor notified via email.
 - I have been making an effort to attend lectures regularly. When I have joined late, I have followed up using the lecture recordings.
 - I have not been keeping up with every Piazza post and follow-up. I am reviewing missed updates, identifying outstanding work, and using this file to track my progress.
+
 
 ## Class Catch-Up and Piazza
 
